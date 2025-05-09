@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dear Anna 💖</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 2rem 1rem;
+      font-family: 'Open Sans', sans-serif;
+      background: linear-gradient(135deg, #ffe6f0, #ffd6e0);
+      color: #333;
+      overflow-x: hidden;
+      text-align: center;
+      position: relative;
+    }
+
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: #d6336c;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: auto;
+      padding: 1rem 1.5rem;
+      background: rgba(255, 255, 255, 0.6);
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      line-height: 1.6;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    .floating-heart {
+      position: absolute;
+      font-size: 1.5rem;
+      animation: float 6s infinite ease-in-out;
+      opacity: 0.5;
+      user-select: none;
+    }
+
+    .floating-heart:nth-child(1) { top: 10%; left: 20%; animation-delay: 0s; }
+    .floating-heart:nth-child(2) { top: 30%; left: 70%; animation-delay: 2s; }
+    .floating-heart:nth-child(3) { top: 50%; left: 40%; animation-delay: 4s; }
+    .floating-heart:nth-child(4) { top: 70%; left: 80%; animation-delay: 1s; }
+    .floating-heart:nth-child(5) { top: 90%; left: 10%; animation-delay: 3s; }
+
+    @keyframes float {
+      0% { transform: translateY(0); opacity: 0.5; }
+      50% { transform: translateY(-20px); opacity: 1; }
+      100% { transform: translateY(0); opacity: 0.5; }
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      p {
+        font-size: 1rem;
+        padding: 1rem;
+      }
+
+      .floating-heart {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Floating hearts -->
+  <div class="floating-heart">💖</div>
+  <div class="floating-heart">❤️</div>
+  <div class="floating-heart">💕</div>
+  <div class="floating-heart">💞</div>
+
+  <!-- Main content -->
+  <h1>Dear Anna</h1>
+  <p>
+    Aku membuat halaman kecil ini hanya untukmu,<br/>
+    untuk mengungkapkan betapa kamu berarti buatku.<br/>
+    Setiap hari bersamamu terasa seperti mimpi indah yang tak ingin aku akhiri.<br/>
+    Terima kasih sudah hadir dan mencintaiku dengan caramu yang indah.<br/>
+    I Love You. 💝
+  </p>
+
+  <footer>Dibuat sepenuh hati oleh Rizz — untuk Anna 🌹</footer>
+</body>
+</html>
